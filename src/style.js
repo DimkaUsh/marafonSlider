@@ -30,6 +30,7 @@ function changeSlide(direction) {
       currentSlide = 0;
     }
   }
+
   mainSlide.style.transform = `translateY(${-300 + currentSlide * 100}vh)`;
   sidebar.style.transform = `translateY(${currentSlide * -100}vh)`;
 }
